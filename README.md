@@ -14,7 +14,7 @@ Pembangkitan kunci publik `(e, n)` dan kunci privat `(d, n)` dengan langkah-lang
 
 1. Pilih dua bilangan prima besar `p` dan `q` yang berbeda. 
 2. Hitung modulus `n = p × q` dan nilai Euler totient `φ(n) = (p-1)(q-1)`. 
-3. Pilih `e` (biasanya 65537) yang coprime dengan `φ(n)`
+3. Pilih `e` (biasanya 65537) yang coprime dengan `φ(n)`.
 4. Hitung `d` sebagai invers modular dari `e` mod `φ(n)` menggunakan Extended Euclidean Algorithm.
 
 **2. Enkripsi**
@@ -180,6 +180,7 @@ Nama        : Zakia Minhatul Maula
 NIM         : 24051204141 
 
 Mata Kuliah : Keamanan Data & Informasi 
+
 
 
 
