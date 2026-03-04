@@ -169,6 +169,8 @@ Ciphertext (C)       ASCII (M = C^d mod n)  Char
 ## Author
 
 Nama        : Zakia Minhatul Maula 
+
 NIM         : 24051204141 
 
 Mata Kuliah : Keamanan Data & Informasi 
+
