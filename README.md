@@ -8,13 +8,16 @@ Implementasi algoritma RSA (Rivest, Shamir, and Adleman) murni dari awal tanpa m
 
 Program ini mendemonstrasikan tiga tahap utama algoritma RSA secara step-by-step:
 
-**1. Key Generation** 
-Pembangkitan kunci publik `(e, n)` dan kunci privat `(d, n)` dengan langkah-langkah: pertama, pilih dua bilangan prima besar `p` dan `q` yang     berbeda. Kemudian hitung modulus `n = p × q` dan nilai Euler totient `φ(n) = (p-1)(q-1)`. Selanjutnya pilih `e` (biasanya 65537) yang coprime dengan `φ(n)`, dan terakhir hitung `d` sebagai invers modular dari `e` mod `φ(n)` menggunakan Extended Euclidean Algorithm.
+**1. Key Generation**
 
-**2. Enkripsi** 
+Pembangkitan kunci publik `(e, n)` dan kunci privat `(d, n)` dengan langkah-langkah: pertama, pilih dua bilangan prima besar `p` dan `q` yang berbeda. Kemudian hitung modulus `n = p × q` dan nilai Euler totient `φ(n) = (p-1)(q-1)`. Selanjutnya pilih `e` (biasanya 65537) yang coprime dengan `φ(n)`, dan terakhir hitung `d` sebagai invers modular dari `e` mod `φ(n)` menggunakan Extended Euclidean Algorithm.
+
+**2. Enkripsi**
+
 Mengubah plaintext → ciphertext dengan rumus `C = M^e mod n` di mana `M` adalah representasi ASCII dari karakter.
 
-**3. Dekripsi** 
+**3. Dekripsi**
+
 Mengembalikan ciphertext → plaintext dengan rumus `M = C^d mod n` dan konversi kembali ke karakter.
 
 ---
@@ -172,5 +175,6 @@ Nama        : Zakia Minhatul Maula
 NIM         : 24051204141 
 
 Mata Kuliah : Keamanan Data & Informasi 
+
 
 
